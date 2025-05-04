@@ -45,25 +45,36 @@
 
 ## ⚡ Быстрый старт
 
-```bash
 # 1. Клонируем репо и заходим
+```
 git clone https://github.com/<username>/quantum-ocr-bot.git
+```
+```
 cd quantum-ocr-bot
+```
 
 # 2. Создаём виртуальное окружение
-python -m venv venv
+```
+python -m venv venv 
+```
+```
 source venv/bin/activate      # Windows: venv\Scripts\activate
+```
 
 # 3. Ставим зависимости
+```
 pip install -r requirements.txt
+```
 
 # 4. Копируем конфиг и заполняем
+```
 cp .env.example .env          # открой .env и впиши свои значения
+```
 
 # 5. Запуск
+```
 python bot.py
-````
-
+```
 > ⚠️ **Важно:** `.env` и `google_key.json` не публикуем, они игнорируются `.gitignore`.
 
 ---
@@ -118,8 +129,6 @@ requirements.txt
 .gitignore
 README.md
 ```
-
-![flow](https://user-images.githubusercontent.com/placeholder/flow.png)
 
 ---
 
